@@ -1,1 +1,15 @@
-xc*/
+# Xcode user and workspace data
+xcuserdata/
+xcshareddata/
+*.xcworkspace/
+
+# Build outputs
+build/
+DerivedData/
+
+# Xcode state
+*.xcuserstate
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
