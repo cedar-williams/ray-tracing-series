@@ -1,7 +1,6 @@
-# Xcode user and workspace data
-xcuserdata/
-xcshareddata/
-*.xcworkspace/
+gitignore# Xcode user and workspace data
+**/xcuserdata/
+**/xcshareddata/
 
 # Build outputs
 build/
@@ -9,7 +8,3 @@ DerivedData/
 
 # Xcode state
 *.xcuserstate
-*.pbxuser
-*.mode1v3
-*.mode2v3
-*.perspectivev3
