@@ -20,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		9F60AD612EB40B75000EB579 /* Ray Tracing in One Weekend */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Ray Tracing in One Weekend"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F60AD7B2EB523BA000EB579 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -46,6 +47,7 @@
 			children = (
 				9F60AD632EB40B75000EB579 /* Ray Tracing in One Weekend */,
 				9F60AD622EB40B75000EB579 /* Products */,
+				9F60AD7B2EB523BA000EB579 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
