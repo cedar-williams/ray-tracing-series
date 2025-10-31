@@ -1,0 +1,10 @@
+gitignore# Xcode user and workspace data
+**/xcuserdata/
+**/xcshareddata/
+
+# Build outputs
+build/
+DerivedData/
+
+# Xcode state
+*.xcuserstate
