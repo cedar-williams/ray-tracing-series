@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9F60AD5C2EB40B75000EB579 /* Build configuration list for PBXProject "Ray Tracing in One Weekend" */;
+			buildConfigurationList = 9F60AD5C2EB40B75000EB579 /* Build configuration list for PBXProject "Ray Tracing Series" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -262,7 +262,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9F60AD5C2EB40B75000EB579 /* Build configuration list for PBXProject "Ray Tracing in One Weekend" */ = {
+		9F60AD5C2EB40B75000EB579 /* Build configuration list for PBXProject "Ray Tracing Series" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F60AD662EB40B75000EB579 /* Debug */,
