@@ -19,17 +19,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9F60AD612EB40B75000EB579 /* Ray Tracing in One Weekend */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Ray Tracing in One Weekend"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F51D5262EBA679900879D31 /* camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		9F51D5272EBA679900879D31 /* color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = color.h; sourceTree = "<group>"; };
+		9F51D5282EBA679900879D31 /* hittable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hittable.h; sourceTree = "<group>"; };
+		9F51D5292EBA679900879D31 /* hittable_list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hittable_list.h; sourceTree = "<group>"; };
+		9F51D52A2EBA679900879D31 /* interval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interval.h; sourceTree = "<group>"; };
+		9F51D52B2EBA679900879D31 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9F51D52C2EBA679900879D31 /* material.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = material.h; sourceTree = "<group>"; };
+		9F51D52D2EBA679900879D31 /* ray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ray.h; sourceTree = "<group>"; };
+		9F51D52E2EBA679900879D31 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		9F51D52F2EBA679900879D31 /* rtweekend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rtweekend.h; sourceTree = "<group>"; };
+		9F51D5302EBA679900879D31 /* sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		9F51D5312EBA679900879D31 /* vec3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vec3.h; sourceTree = "<group>"; };
+		9F60AD612EB40B75000EB579 /* Ray Tracing Series */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Ray Tracing Series"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F60AD7B2EB523BA000EB579 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		9F60AD632EB40B75000EB579 /* Ray Tracing in One Weekend */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Ray Tracing in One Weekend";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9F60AD5E2EB40B75000EB579 /* Frameworks */ = {
@@ -42,10 +46,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F51D5322EBA679900879D31 /* Ray Tracing Series */ = {
+			isa = PBXGroup;
+			children = (
+				9F51D5262EBA679900879D31 /* camera.h */,
+				9F51D5272EBA679900879D31 /* color.h */,
+				9F51D5282EBA679900879D31 /* hittable.h */,
+				9F51D5292EBA679900879D31 /* hittable_list.h */,
+				9F51D52A2EBA679900879D31 /* interval.h */,
+				9F51D52B2EBA679900879D31 /* main.cpp */,
+				9F51D52C2EBA679900879D31 /* material.h */,
+				9F51D52D2EBA679900879D31 /* ray.h */,
+				9F51D52E2EBA679900879D31 /* readme.md */,
+				9F51D52F2EBA679900879D31 /* rtweekend.h */,
+				9F51D5302EBA679900879D31 /* sphere.h */,
+				9F51D5312EBA679900879D31 /* vec3.h */,
+			);
+			path = "Ray Tracing Series";
+			sourceTree = "<group>";
+		};
 		9F60AD582EB40B75000EB579 = {
 			isa = PBXGroup;
 			children = (
-				9F60AD632EB40B75000EB579 /* Ray Tracing in One Weekend */,
+				9F51D5322EBA679900879D31 /* Ray Tracing Series */,
 				9F60AD622EB40B75000EB579 /* Products */,
 				9F60AD7B2EB523BA000EB579 /* .gitignore */,
 			);
@@ -54,7 +77,7 @@
 		9F60AD622EB40B75000EB579 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F60AD612EB40B75000EB579 /* Ray Tracing in One Weekend */,
+				9F60AD612EB40B75000EB579 /* Ray Tracing Series */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,9 +85,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9F60AD602EB40B75000EB579 /* Ray Tracing in One Weekend */ = {
+		9F60AD602EB40B75000EB579 /* Ray Tracing Series */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F60AD682EB40B75000EB579 /* Build configuration list for PBXNativeTarget "Ray Tracing in One Weekend" */;
+			buildConfigurationList = 9F60AD682EB40B75000EB579 /* Build configuration list for PBXNativeTarget "Ray Tracing Series" */;
 			buildPhases = (
 				9F60AD5D2EB40B75000EB579 /* Sources */,
 				9F60AD5E2EB40B75000EB579 /* Frameworks */,
@@ -74,14 +97,11 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				9F60AD632EB40B75000EB579 /* Ray Tracing in One Weekend */,
-			);
-			name = "Ray Tracing in One Weekend";
+			name = "Ray Tracing Series";
 			packageProductDependencies = (
 			);
 			productName = "Ray Tracing in One Weekend";
-			productReference = 9F60AD612EB40B75000EB579 /* Ray Tracing in One Weekend */;
+			productReference = 9F60AD612EB40B75000EB579 /* Ray Tracing Series */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9F60AD602EB40B75000EB579 /* Ray Tracing in One Weekend */,
+				9F60AD602EB40B75000EB579 /* Ray Tracing Series */,
 			);
 		};
 /* End PBXProject section */
@@ -271,7 +291,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F60AD682EB40B75000EB579 /* Build configuration list for PBXNativeTarget "Ray Tracing in One Weekend" */ = {
+		9F60AD682EB40B75000EB579 /* Build configuration list for PBXNativeTarget "Ray Tracing Series" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F60AD692EB40B75000EB579 /* Debug */,
